@@ -31,8 +31,9 @@ function bubbleSort(arr) {
                 arr[j + 1] = temp;
             }
         }
+        console.log("One Pass complete");
     }
     return arr;
 }
 
-console.log(bubbleSort([37, 45, 29, 8]));
+console.log(bubbleSort([37, 45, 29, 8,12,88,-3]));
