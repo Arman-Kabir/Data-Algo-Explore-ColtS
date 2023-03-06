@@ -28,3 +28,20 @@
 /*
      
 */
+
+
+// 4 - Bubble Sort Overview
+/*
+     A sorting Algorithm where the largest values bubble up to the top. 
+     Bubble Sort works - as we loop through each item we compare it to the next item the one in front of it and we check is this one larger than what we're comparing it to. If it is we swap.
+     Then we start again.
+
+     It's also can be called sinkings sort where the largest values sink to the end to the bottom.
+
+     ***Bubble Sort Pseudocode
+     * STart looping from with a variable called i at the end of the array towards the beginning.
+     * Start an inner loop with a variable called j from the beginning until i-1.
+     * * if arr[j] is greater than arr[j+1], swap those two values!
+     * * Return the sorted array
+
+*/
